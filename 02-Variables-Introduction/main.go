@@ -32,4 +32,18 @@ func main() {
 	c, d, e, f := 15, 95, 190, "Deepanshu" // Multiple assignment
 	fmt.Println(c, d, e, f)
 
+	adams := 42
+	fmt.Printf("42 as binary, %b \n", adams)
+	fmt.Printf("42 as hexadecimal, %x \n", adams)
+
+	// print these values as both binary & hexadecimal
+	i, j, k, l, m, n := 23, 46, 98, 100, 23235, 25246
+
+	fmt.Printf("%v\t %b\t\t\t %o\t %x\n", i, i, i, i)
+	fmt.Printf("%v\t %b\t\t\t %o\t %x\n", j, j, j, j)
+	fmt.Printf("%v\t %b\t\t %o\t %x\n", k, k, k, k)
+	fmt.Printf("%v\t %b\t\t %o\t %x\n", l, l, l, l)
+	fmt.Printf("%v\t %b\t %o\t %x\n", m, m, m, m)
+	fmt.Printf("%v\t %b\t %o\t %x\n", n, n, n, n)
+
 }
